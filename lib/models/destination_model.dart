@@ -8,11 +8,11 @@ class Destination {
   List<Activity> activities;
 
   Destination({
-    this.imageUrl,
-    this.city,
-    this.country,
-    this.description,
-    this.activities,
+    required this.imageUrl,
+    required this.city,
+    required this.country,
+    required this.description,
+    required this.activities,
   });
 }
 
